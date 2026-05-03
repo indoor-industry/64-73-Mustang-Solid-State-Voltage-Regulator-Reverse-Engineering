@@ -2451,16 +2451,6 @@
 		)
 		(uuid "10ababf9-a027-49f8-9df0-57373a75aff6")
 	)
-	(text "pulls Q9 base to GND when ON"
-		(exclude_from_sim no)
-		(at 138.938 105.156 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "53e76808-3a78-4b64-8a60-4334e7bca60a")
-	)
 	(text "Load and source for simulation"
 		(exclude_from_sim no)
 		(at 61.468 86.614 0)
@@ -2480,16 +2470,6 @@
 			)
 		)
 		(uuid "83ae6fe0-1f8a-4bc0-84fb-78696e666094")
-	)
-	(text "pulls Q9 base high when ON"
-		(exclude_from_sim no)
-		(at 255.016 98.044 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "87d3a1f6-c38c-42c5-af35-b23b47f2a163")
 	)
 	(junction
 		(at 242.57 111.76)
@@ -2592,12 +2572,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfff0948-ccbe-425c-b339-74adc9c24938")
-	)
-	(junction
-		(at 67.31 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e14415db-0fee-48a8-9549-95a630466d31")
 	)
 	(junction
 		(at 215.9 78.74)
@@ -2860,16 +2834,6 @@
 			(type default)
 		)
 		(uuid "5c9fcb67-2270-4e5f-a42e-0d60250749e4")
-	)
-	(wire
-		(pts
-			(xy 60.96 93.98) (xy 67.31 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6010d25e-5c5e-4b1f-8dd3-5ebbdb81fea1")
 	)
 	(wire
 		(pts
@@ -5134,7 +5098,7 @@
 				)
 			)
 		)
-		(property "Value" "6.5V"
+		(property "Value" "Vz = 6.5V"
 			(at 216.154 93.472 0)
 			(effects
 				(font
